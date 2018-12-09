@@ -3,9 +3,9 @@ I've created a simple framework for creating minimal and secure Docker images ba
 
 ## The Dockerfile-template
 The Dockerfile-template is divided into six blocks, of which three is mandatory: 
-* TAG-block (mandatory)
+* TAG-block <- mandatory!
 * ARG-block
-* Static-block-1 (mandatory)
+* Static-block-1 <- mandatory!
 * ENV-block
-* Static-block-2 (mandatory)
+* Static-block-2 <- mandatory!
 * End-block
