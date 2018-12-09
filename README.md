@@ -11,5 +11,5 @@ The Dockerfile-template is divided into six blocks, of which three are mandatory
 * End-block
 
 ### The TAG-block
-The TAG-block contains only the TAG-constant defined in a ARG statement. If the content-, base- or helper-images used during the build process, were based on different Alpine builds, then there would be a risc of mismatching system libraries.
+The TAG-block contains only the TAG-constant defined in a ARG statement. If the content-, base- or helper-images, used during the build process, were based on different Alpine builds, then there would be a risc of mismatching system libraries.
 The TAG-constant makes sure all stage images are based on the same Alpine base image.
