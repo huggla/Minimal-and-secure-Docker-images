@@ -18,6 +18,7 @@ This block contains only the TAG-constant, defined in an ARG statement. If the c
 This block contains ARG statements, setting any of the following constants (defaults in paranthesis):
 
 CONTENTIMAGE1
+
 An image containing additional files, that should be added to the INITIMAGE.
 
 CONTENTSOURCE1 (/)
