@@ -27,7 +27,7 @@ List of files and directories, with full paths and separated by spaces, in CONTE
 
 *CONTENTDESTINATION1 (/buildfs/)*
 
-The directory where to CONTENTSOURCE1 is copied.
+The directory where the files and directories given in CONTENTSOURCE1 is copied to.
 
 *CONTENTIMAGE2*
 
