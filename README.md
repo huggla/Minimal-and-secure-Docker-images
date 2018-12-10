@@ -17,20 +17,23 @@ This block contains only the TAG-constant, defined in an ARG statement. If the c
 ### The ARG-block
 This block contains ARG statements, setting any of the following constants (defaults in paranthesis):
 
-CONTENTIMAGE1
-
+**CONTENTIMAGE1**
 An image containing additional files, that should be added to the INITIMAGE.
 
 CONTENTSOURCE1 (/)
+
 List of files and directories, with full paths and separated by spaces, in CONTENTIMAGE1 that should be copied to the INITIMAGE.
 
 CONTENTDESTINATION1 (/buildfs/)
+
 The directory where to CONTENTSOURCE1 is copied.
 
 CONTENTIMAGE2
+
 See CONTENTIMAGE1.
 
 CONTENTSOURCE2 (/)
+
 See CONTENTSOURCE1.
 
 CONTENTDESTINATION2 (/buildfs/)
