@@ -2,7 +2,6 @@
 ARG TAG=""
 #---------------ARG-block---------------------
 
-
 #---------------Static-block-1----------------
 FROM ${CONTENTIMAGE1:-scratch} as content1
 FROM ${CONTENTIMAGE2:-scratch} as content2
@@ -10,8 +9,9 @@ FROM ${INITIMAGE:-${BASEIMAGE:-huggla/base:$TAG}} as init
 FROM ${BUILDIMAGE:-huggla/build:$TAG} as build
 FROM ${BASEIMAGE:-huggla/base:$TAG} as image
 COPY --from=build /imagefs /
-#---------------ENV-block---------------------
+#---------------RUN-block---------------------
 
+#---------------ENV-block---------------------
 
 #---------------Static-block-2----------------
 USER starter
