@@ -19,11 +19,11 @@ This block contains ARG statements, setting any of the following constants (defa
 
 *CONTENTIMAGE1*
 
-An image containing additional files, that should be added to the INITIMAGE.
+An image containing additional files, that should be added to the "build"-stage.
 
 *CONTENTSOURCE1 (/)*
 
-List of files and directories, with full paths and separated by spaces, in CONTENTIMAGE1 that should be copied to the INITIMAGE.
+List of files and directories, with full paths and separated by spaces, in CONTENTIMAGE1 that should be copied to the "build"-stage.
 
 *CONTENTDESTINATION1 (/buildfs/)*
 
