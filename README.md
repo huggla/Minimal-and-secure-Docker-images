@@ -16,13 +16,13 @@ This block contains only the TAG-constant, defined in an ARG statement. If the c
 
 ### The ARG-block
 This block contains ARG statements, setting any of the following constants:
-##### CONTENTIMAGE1
+CONTENTIMAGE1
 
-#### CONTENTSOURCE1
+CONTENTSOURCE1
 
-#### CONTENTDESTINATION1
+CONTENTDESTINATION1
 
-#### CONTENTIMAGE2
+CONTENTIMAGE2
 
 #### CONTENTSOURCE2
 
